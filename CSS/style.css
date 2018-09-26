@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 3px;
+    font-family: 'Poor Story', cursive;
+}
+
+
+.top {
+    background-color: teal;
+    height: 60px;
+    max-width: 100%;
+}
+
+.title p,
+h1 {
+    display: flex;
+    margin: 20px;
+    flex-flow: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title p{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+.title h1{
+    font-size: 35px;
+    text-align: justify;
+}
+.center {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+
+.c1,
+.c2,
+.c3 {
+
+    background-color: white;
+    height: 55vh;
+    width: 80%;
+    margin: 5px;
+    box-shadow: 1px 1px lightgray;
+    z-index: 1;
+}
+
+/* .c1, .c2, .c3{
+    margin: 5px;
+} */
+
+.footer {
+    background-color: teal;
+    position: relative;
+    bottom: 20px;
+    height: 200px;
+    max-width: 100%;
+}
+.f-desc{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 60px;
+color: white;
+font-weight: bold;
+font-size: 1.5rem;
+}
+.hire-us{
+    background-color: white;
+    font-weight: bold;
+    height: 35px;
+    width: 100px;
+    border-radius: 50px;
+    border-color: teal;
+    color: teal;
+}
+
+.c-title,
+.c-price,
+.c-desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+.c-price{
+    color: teal;
+}
+.c-desc{
+    font-size: 1.5rem;
+}
+.center .fas {
+    display: flex;
+    margin: 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: teal;
+}
+
+
+
+@media (max-width: 741px) {
+    .center {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
